@@ -1,0 +1,107 @@
+BODY{
+    margin: 0;
+}
+.block_name{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+}
+
+.block{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    margin: 107px 135px;
+}
+
+.block_info{
+    margin-right: 50px;
+}
+
+.descripshen{
+    font-weight: 400px;
+    size: 14px;
+    color: #fff;
+    line-height: 27px;
+    font-style: normal;
+}
+
+.orange{
+    color:#E3B873;
+    text-transform: uppercase;
+}
+
+.cron_block{
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.city_descriphen{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cities{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;  
+}
+
+.cities_name{
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.cities_name:active{
+    color: #E3B873;
+}
+
+.cities_name:hover{
+    color: #E3B873;
+    cursor: pointer;
+}
+
+.image{
+    height: 450px;
+    width: 650px;
+    border: 0;
+}
+
+.arrow{
+    margin-top: 30px; 
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+.pag{
+    position: relative;
+}
+
+.slider_dot_wrapper {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    bottom: 35%;
+    transform: translate(-50%, -50%);
+  }
+  
+  
+  /* Точка */
+  
+  .slider_dot_wrapper .slider_dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 5px;
+  }
+  
+ .slider_dot_wrapper .slider_dot:hover {
+    border: 2px solid #fdd01c;
+  }
